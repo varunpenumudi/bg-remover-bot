@@ -1,5 +1,5 @@
 # bg-remover Bot
-this is a simple telegram bot for removing backgrounds from images. it uses python's rembg library for removing background of a picture.
+A telgram bot that removes Background of Images. It uses python's rembg library for removing background of a picture and uses the python-telegram-bot api for sending and recieving messages
 
 # usage
 1. clone this repo and on your computer first and cd into the folder
