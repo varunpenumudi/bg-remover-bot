@@ -64,7 +64,7 @@ async def remove_background(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Main Code
 
 if __name__ == "__main__":
-	application = ApplicationBuilder().token("5894340071:AAGaWQJ1Tjt-Vr7ButlubFnWTgBIPVFjOM4").read_timeout(30).write_timeout(30).build()
+	application = ApplicationBuilder().token("TELEGRAM_BOT_TOKEN").read_timeout(30).write_timeout(30).build()
 	print("starting bot.....")
 
 	application.add_handler(CommandHandler("start",start))
